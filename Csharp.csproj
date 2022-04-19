@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>task.OneD_Array</StartupObject>
+    <StartupObject>task.Jagged_array</StartupObject>
   </PropertyGroup>
 
 </Project>
