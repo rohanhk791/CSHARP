@@ -4,28 +4,56 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Show the working of Nullables with various datatype.
+//Show the working of NULL COALESCING OPERATOR ??
+
 namespace nullable
 {
-    internal class Nullables
+    public class Nullables
     {
         public static void Main()
         {
-            int num1 = 20; //SYNTAX FOR NULLABLE
-            int? num2 = null;  //NULLABLE GENERIC 
 
-            Nullable<int> num3 = null;
-            Console.WriteLine("Num1 is:{0}", num1);
-            Console.WriteLine("Null Values are:{0} and {1}", num2, num3);
+            //Declaring Nullables on various Datatypes
+            int? id = null;
+            Nullable<float> balance = null;
+            double? intrest = null;
+            string? address = null;
+            string? name = null;
 
-            //NULL COALESCING OPERATOR ??
-            int? a = null;
-            int? b = 10;
-            int? c;
-            c = a ?? b;
+            //Printing the Nullable Values
+            Console.WriteLine("Nullables\n");
+            Console.WriteLine("book ID        : {0}", id);
+            Console.WriteLine("authorname       : {0}", name);
+            Console.WriteLine("Address         : {0}", address);
+            Console.WriteLine("Balance Amt    : {0}", balance);
+            Console.WriteLine("Intrest earn : {0}", intrest);
 
-            Console.WriteLine("C is:{0}", c);
-            c = a ?? 200;
-            Console.WriteLine("C is:{0}", c);
+            //Declaring variables for Coalescing usage
+            int ID = 1;
+            float BALANCE = 10000.10f;
+            double INTREST = 1400.00;
+            string ADDRESS = "Mandya";
+            string NAME = "Rohan H K";
+
+            //Coalescing the nullable values
+            id = id ?? ID;
+            name = name ?? NAME;
+            address = address ?? ADDRESS;
+            balance = balance ?? BALANCE;
+            intrest = intrest ?? INTREST;
+
+            //Printing the updated value here
+            Console.WriteLine("\n\nCoalescing the Null values\n");
+
+            Console.WriteLine("User ID        : {0}", id);
+            Console.WriteLine("Username       : {0}", name);
+            Console.WriteLine("Address        : {0}", address);
+            Console.WriteLine("Balance Amt    : {0}", balance);
+            Console.WriteLine("Intrest earn   : {0}", intrest);
+
+
+
         }
     }
 }
