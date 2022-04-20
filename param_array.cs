@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 // Write a program to perform sum of natural numbers using params array.
 
-namespace Concepts
+namespace paraam
 {
     public class paramarray
     {
