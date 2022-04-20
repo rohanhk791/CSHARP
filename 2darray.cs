@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace task_22
+namespace arr
 {
     internal class TwoD_Array
     {
