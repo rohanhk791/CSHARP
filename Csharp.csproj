@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>nullable.Nullables</StartupObject>
+    <StartupObject>paramcons.param_constr</StartupObject>
   </PropertyGroup>
 
 </Project>
