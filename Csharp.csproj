@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>inter.area_per.Calculation.Program</StartupObject>
+    <StartupObject>hybrid.HybridInheritance</StartupObject>
   </PropertyGroup>
 
 </Project>
