@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Csharp.debug3.program</StartupObject>
+    <StartupObject>Csharp.voting</StartupObject>
   </PropertyGroup>
 
 </Project>
