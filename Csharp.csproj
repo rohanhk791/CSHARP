@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Csharp.Keys_and_Values_using_Dictionary_and_Hashtable</StartupObject>
+    <StartupObject>Csharp.Regularex</StartupObject>
   </PropertyGroup>
 
 </Project>
